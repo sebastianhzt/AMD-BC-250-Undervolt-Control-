@@ -64,7 +64,7 @@ Installation
 Clone this repository and make the script executable:
 ```text
 git clone https://github.com/sebastianhzt/AMD-BC-250-Undervolt-Control.git
-cd bc250-undervolt-control
+cd AMD-BC-250-Undervolt-Control
 ```
 ```text
 chmod +x bc250-control.sh
