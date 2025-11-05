@@ -2,7 +2,7 @@
 #
 # AMD BC-250 Undervolt Control Menu (single self-contained script)
 # Modes:
-#  1) Gaming mode      - loop 2000 MHz / 900 mV
+#  1) Gaming mode      - loop 2000 MHz / 925 mV
 #  2) Balanced mode    - loop 1500 MHz / 810 mV
 #  3) Power saving     - loop 1000 MHz / 700 mV
 #  4) Restore stock    - reset OD table (no loop)
@@ -74,8 +74,8 @@ start_loop() {
 }
 
 gaming_mode() {
-  echo "[Gaming mode] 2000 MHz / 900 mV (loop)"
-  start_loop 2000 900
+  echo "[Gaming mode] 2000 MHz / 925 mV (loop)"
+  start_loop 2000 925
 }
 
 balanced_mode() {
@@ -123,7 +123,7 @@ BANNER
   echo
   echo " AMD BC-250 Undervolt Control"
   echo
-  echo " [1] Gaming mode      (loop 2000 MHz / 900 mV)"
+  echo " [1] Gaming mode      (loop 2000 MHz / 925 mV)"
   echo " [2] Balanced mode    (loop 1500 MHz / 810 mV)"
   echo " [3] Power saving     (loop 1000 MHz / 700 mV)"
   echo " [4] Restore stock OD table (no loop)"
